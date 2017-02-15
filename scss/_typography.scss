@@ -1,23 +1,46 @@
 // Typography
+// Google  Fonts
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond')
+    
+// Font Variables
+$cormorantgaramond: 'Cormorant Garamond', serif;
+$cinzel: 'Cinzel', serif;
+
+// Styles
 
 h1 {
-    color: red;
-    font-size: 3em;
-    display: inline-block;
-    font-family: 'Cinzel', serif;
+    color: $pri-color;
+    font-size: 4em;
+    text-shadow: 2px 2px 2px $sec-color;
+    font-family: $cinzel;
+    text-align: center;
+}
+
+h2 {
+    color: $pri-color;
+    text-align:left;
+    font-family: $cinzel;
+}
+
+p {
+    text-align:left;
+}
+
+footer p {
+    text-align: center;
+    color: $ter-color;
 }
 
 li,
 p {
-    color: black;
+    color: $ter-color;
     list-style: none;
-    font-size: 14pt;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: $cormorantgaramond;
 }
 
 li a {
+    font-size: 10pt;
     text-decoration: none;
-    color: red;
-    font-size: 18pt;
-    font-family: 'Cormorant Garamond', serif;
+    color: $pri-color;
+    font-family: $cinzel;
 }
