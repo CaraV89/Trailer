@@ -1,23 +1,23 @@
-// Color Palette
+$pri-color: #df2006;
+$sec-color: #fff;
+$ter-color: #000001;
+$quat-color: #d7d7d7;
 
-$pri-color: red;
-$sec-color: white;
-$ter-color: black;
-$quat-color: gray;
-
-// Page Styles
-
-.page {
-    background: $ter-color;
+body {
+    background-color: $sec-color;
     margin-top: 1em;
 }
 
 // Header Styling
 
+header {
+    margin: auto;
+}
+
+// Main Styling
 main {
     padding: 0 1.5em;
 }
-
 
 // Video Player Styling
 
@@ -27,6 +27,19 @@ video{
     width: 100%;
 }
 
-//Links Styling
+// Button Styling
+aside {
+    li {
+        background: $pri-color;
+        width: 100%;
+        margin-top: 1em;
+        a {
+            line-height: 3em;
+        }
+    }
+       
+        li:nth-child(1){
+            background-color: $sec-color;
+        }
 
-
+}

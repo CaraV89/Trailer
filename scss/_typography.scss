@@ -10,7 +10,7 @@ $cinzel: 'Cinzel', serif;
 
 h1 {
     color: $pri-color;
-    font-size: 4em;
+    font-size: 40pt;
     text-shadow: 2px 2px 2px $ter-color;
     font-family: $cinzel;
     text-align: center;
@@ -18,29 +18,27 @@ h1 {
 
 h2 {
     color: $pri-color;
+    font-size: 16pt;
     text-align:left;
     font-family: $cinzel;
-}
-
-p {
-    text-align:left;
-}
-
-footer p {
-    text-align: center;
-    color: $sec-color;
 }
 
 li,
 p {
     color: $sec-color;
+    text-align:left;
     list-style: none;
     font-family: $cormorantgaramond;
 }
 
 li a {
-    font-size: 10pt;
+    font-size: 14pt;
     text-decoration: none;
     color: $pri-color;
     font-family: $cinzel;
+}
+
+footer p {
+    text-align: center;
+    color: $sec-color;
 }
