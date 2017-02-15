@@ -11,7 +11,7 @@ $cinzel: 'Cinzel', serif;
 h1 {
     color: $pri-color;
     font-size: 4em;
-    text-shadow: 2px 2px 2px $sec-color;
+    text-shadow: 2px 2px 2px $ter-color;
     font-family: $cinzel;
     text-align: center;
 }
@@ -28,12 +28,12 @@ p {
 
 footer p {
     text-align: center;
-    color: $ter-color;
+    color: $sec-color;
 }
 
 li,
 p {
-    color: $ter-color;
+    color: $sec-color;
     list-style: none;
     font-family: $cormorantgaramond;
 }

@@ -1,15 +1,19 @@
 // Color Palette
+
 $pri-color: red;
 $sec-color: white;
 $ter-color: black;
-$quat-color: darkred;
+$quat-color: gray;
 
-body {
-    background: $sec-color;
+// Page Styles
+
+.page {
+    background: $ter-color;
     margin-top: 1em;
 }
 
 // Header Styling
+
 main {
     padding: 0 1.5em;
 }
